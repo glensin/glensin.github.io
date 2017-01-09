@@ -1,0 +1,226 @@
+
+.rightconsole{
+
+  margin-top: 20px;
+  /*border: 1px solid black;*/
+  width:371px;
+  height: 500px;
+  margin-left: 50px;
+  float:left;
+}
+
+/*.placeholderP1{
+  width: 348px;
+  height:70px;*/
+  /*border : 1px solid black;*/
+/*}
+.p1sign{
+  width: 267px;
+  height: 70px;*/
+  /*border: 1px solid black;*/
+  /*background-image: url(./images/playeroneblue.png);
+  background-repeat: no-repeat;
+  float: left;
+  vertical-align: middle;
+  line-height: 70px;
+  background-position: center;
+
+}*/
+/*.tomhead{
+  width: 75px;
+  height:70px;
+  float:left;
+  background-image: url(./images/Tom-50px.png);
+  background-repeat: no-repeat;
+  vertical-align: middle;
+  line-height: 70px;
+  background-position: center;
+}
+
+.p1rules{
+  width: 348px;
+  height:60px;*/
+  /*border : 1px solid black;*/
+  /*background-image: url(./images/hopover.png);
+  background-repeat: no-repeat;
+  vertical-align: middle;
+  line-height: 100px;
+  background-position: center;
+
+}*/
+
+/*.jerryremain{
+  width: 348px;
+  height:80px;*/
+  /*border : 1px solid black;*/
+  /*text-align: center;
+  background-image: url(./images/hopoversmallphoto.png);
+  background-repeat: no-repeat;
+  background-position: center;
+
+}*/
+/*#jerryremain1{
+  width: 61px;
+  height:72px;
+  display: inline-block;}
+
+#jerryremain2{
+  width: 61px;
+  height:72px;
+  display: inline-block;}
+
+.jerrybw{
+  background-image: url(./images/jerrycrossbw.png);
+}*/
+
+/*.p2rules{
+  width : 348px;
+  height: 150px;
+  /*border: 1px solid black;*/
+  /*background-image: url(./images/trap.png);
+}*/
+.space{
+  width: 348px;
+  height: 10px;
+  /*border: 1px solid black;*/
+}
+
+/*.placeholderP2{
+  width: 348px;
+  height:65px;*/
+  /*border : 1px solid black;*/
+/*}
+.p2sign{
+  width: 267px;
+  height: 70px;*/
+  /*border: 1px solid black;*/
+  /*background-image: url(./images/playertwored.png);
+  background-repeat: no-repeat;
+  float: left;
+  vertical-align: middle;
+  line-height: 70px;
+  background-position: center;
+
+}*/
+/*.jerryhead{
+  width: 75px;
+  height:70px;
+  float:left;
+  background-image: url(./images/jerry-50px.png);
+  background-repeat: no-repeat;
+  vertical-align: middle;
+  line-height: 70px;
+  background-position: center;
+}*/
+.playerOne{
+  /*border: 2px solid blue;*/
+  border-radius: 15px;
+  width: 370px;
+  height:240px;
+}
+.playerTwo{
+  /*border: 2px solid red;*/
+  border-radius: 15px;
+  width:370px;
+  height:240px;
+}
+.p1{
+  background-image: url(./images/blueholder);
+}
+.p2{
+  background-image: url(./images/redholder);
+}
+.p1bw{
+  background-image: url(./images/blueholderbw.png);
+}
+.p2bw{
+  background-image: url(./images/redholderbw.png);
+}
+/*.jerry{
+  width: 61px;
+  height:72px;
+  background-image: url(./images/jerrycross.png);*/
+
+
+/*}*/
+.orgbackground{
+background-image: url(./images/tom-and-jerry-kids-wallpapers-wallpaper-3op.jpg);
+}
+#stage
+{
+    /*background-image: url(./images/tom-and-jerry-kids-wallpapers-wallpaper-3op.jpg);*/
+    background-repeat: no-repeat;
+    background-position: center;
+    float: left;
+    border: 1px solid black;
+    width: 800px;
+    height: 600px;
+    margin-left: 80px;
+    display: -webkit-flex;
+display: flex;
+-webkit-align-items: center;
+align-items: center;
+-webkit-justify-content: center;
+justify-content: center;
+/* You can set flex-wrap and flex-direction individually */
+-webkit-flex-direction: row;
+flex-direction: row;
+-webkit-flex-wrap: wrap;
+flex-wrap: wrap;
+/* Or do it all in one line with flex flow */
+-webkit-flex-flow: row wrap;
+flex-flow: row wrap;
+/* tweak the where items line up on the row */
+/* valid values are: flex-start, flex-end, space-between, space-around, stretch */
+-webkit-align-content: flex-end;
+align-content: flex-end;
+
+}
+#restart{
+  width: 370px;
+  height: 60px;
+  /*border: 1px solid black;*/
+  background-image: url(./images/startbutton.png);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.cell
+{
+    width: 158px;
+    height: 118px;
+    border: 1px solid black;
+
+}
+
+
+.red{
+  background-image: url(./images/tom.png);
+}
+
+.blue{
+  background-image: url(./images/Jerry_Mousecopy.png);
+}
+.dancingtom{
+  background-image: url(./images/Tomdancing.gif)
+}
+.dancingjerry{
+  background-image: url(./images/jerrydancing.gif)
+}
+.tomWin{
+  background-image: url(./images/tomwin.gif);
+}
+.jerryWin{
+  background-image:url(./images/jerrywin1.gif)
+}
+
+.hoverRed{
+  background-image: url(./images/Tomhover.png)
+}
+.hoverTomShy{
+  background-image: url(./images/Tomshy.png)
+}
+
+.hoverBlue{
+  background-image: url(./images/Jerry_Mousecopyhover.png)
+}
